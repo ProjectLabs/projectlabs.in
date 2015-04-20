@@ -5,6 +5,17 @@
 */
 
 (function($) {
+	
+	var settings = {
+
+		// Carousels
+			carousels: {
+				speed: 4,
+				fadeIn: true,
+				fadeDelay: 250
+			},
+
+	};
 
 	skel.init({
 		reset: 'full',
