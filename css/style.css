@@ -767,7 +767,6 @@
 			#main > section.one
 			{
 				background-color: #81918E;
-				background-image: url('../images/banner.jpg');
 			}
 
 			#main > section.two
@@ -781,6 +780,11 @@
 			}
 		
 			#main > section.four
+			{
+				background-color: #e8edec;
+			}
+			
+			#main > section.five
 			{
 				background-color: #e8edec;
 			}
