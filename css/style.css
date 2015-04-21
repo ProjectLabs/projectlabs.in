@@ -537,8 +537,8 @@
 		width: 375px;
 		height: 100%;
 		color: #fff;
-		background: #FFF;
-		/*box-shadow: inset -0.25em 0 0.25em 0 rgba(0,0,0,0.1);*/
+		background: #222629 url('images/overlay.png');
+		box-shadow: inset -0.25em 0 0.25em 0 rgba(0,0,0,0.1);
 		text-align: right;
 	}
 	
@@ -591,7 +591,7 @@
 		#logo h1
 		{
 			position: relative;
-			color: #666666;
+			color: #fff;
 			font-weight: 600;
 			font-size: 1em;
 			line-height: 1em;
@@ -602,9 +602,8 @@
 			position: relative;
 			display: block;
 			font-size: 0.57em;
-			color: #666666;
+			color: rgba(255,255,255,0.5);
 			line-height: 1.25em;
-			font-weight:bold;
 			margin: 0.5em 0 0 0;
 		}
 		
@@ -631,7 +630,7 @@
 				{
 					display: block;
 					padding: 0.5em 1.5em 0.5em 1.5em;
-					color: #666666;
+					color: rgba(255,255,255,0.5);
 					text-decoration: none;
 					outline: 0;
 					border: 0;
@@ -661,8 +660,9 @@
 
 					#nav ul li a.active
 					{
-						/*background: rgba(0,0,0,0.15);*/
-						/*box-shadow: inset 0 0 0.25em 0 rgba(0,0,0,0.125);*/
+						color: #ef6c00;
+						background: rgba(0,0,0,0.15);
+						box-shadow: inset 0 0 0.25em 0 rgba(0,0,0,0.125);
 						color: #ef6c00;
 					}
 
