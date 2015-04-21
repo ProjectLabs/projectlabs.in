@@ -766,20 +766,21 @@
 		
 			#main > section.one
 			{
-				background-color: #81918E;				
+				background-color: #81918E;
+				background-image: url('../images/banner.jpg');
 			}
 
 			#main > section.two
 			{
-				background-color: #97282c;
+				background-color: #f5fafa;
 			}
 		
 			#main > section.three
 			{
-				background-color: #b08b0d;
+				background-color: #ecf1f1;
 			}
 		
 			#main > section.four
 			{
-				background-color: #428f89;
+				background-color: #e8edec;
 			}
